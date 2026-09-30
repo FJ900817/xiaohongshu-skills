@@ -1,0 +1,92 @@
+{
+  "schema_version": "1.0.0",
+  "research_id": "home-research-001",
+  "request": {
+    "research_request": "收集虚构家居内容账号受众对玄关整理的常见问题和表达。",
+    "audience": {
+      "description": "居住空间有限、希望保持入口整洁的人",
+      "needs": [
+        "方便取放",
+        "不挡通行"
+      ]
+    },
+    "content_domain": "合成家居整理示例",
+    "research_goal": "提供可供选题规划参考的候选问题和关键词表达",
+    "seed_keywords": [
+      "玄关整理",
+      "小空间收纳"
+    ],
+    "profile_ref": "synthetic-home-profile"
+  },
+  "sources": [
+    {
+      "source_id": "local-herb-01",
+      "source_type": "csv",
+      "title": "虚构体验记录",
+      "uri": null,
+      "captured_at": null,
+      "synthetic": true
+    }
+  ],
+  "signals": [
+    {
+      "signal_id": "signal-001",
+      "signal_type": "need",
+      "summary": "用户提问：买苗前要观察什么",
+      "evidence_refs": [
+        "evidence-local-herb-01"
+      ],
+      "confidence": 0.45
+    }
+  ],
+  "user_problems": [
+    {
+      "problem_id": "problem-001",
+      "summary": "光照和遮挡条件不清楚",
+      "evidence_refs": [
+        "evidence-local-herb-01"
+      ],
+      "confidence": 0.5
+    }
+  ],
+  "candidate_topics": [
+    {
+      "topic_id": "research-topic-001",
+      "title_direction": "如何应对：光照和遮挡条件不清楚",
+      "core_problem": "光照和遮挡条件不清楚",
+      "content_angle": "先解释问题，再提出可执行步骤并说明适用边界。",
+      "note_type": "search",
+      "evidence_refs": [
+        "evidence-local-herb-01"
+      ],
+      "confidence": 0.5
+    }
+  ],
+  "candidate_keywords": [
+    {
+      "phrase": "窗台种植",
+      "intent": "入门意图",
+      "evidence_refs": [
+        "evidence-local-herb-01"
+      ],
+      "confidence": 0.5
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-local-herb-01",
+      "source_id": "local-herb-01",
+      "summary": "合成测试记录：想先观察窗台光线再选香草",
+      "excerpt": null,
+      "synthetic": true,
+      "limitations": []
+    }
+  ],
+  "confidence": 0.49,
+  "limitations": [
+    "结果只反映明确提供的来源，不代表整体市场、平台实时趋势或搜索热度。",
+    "来源均为合成示例，不代表真实用户、搜索或经营数据。"
+  ],
+  "status": "proposed",
+  "synthetic": true
+}

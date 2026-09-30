@@ -1,0 +1,14 @@
+{
+  "schema_version":"1.0.0","task_id":"FR-HERB-001","status":"approved","profile_ref":"window-herbs-fictional",
+  "content_goal":"帮助租住空间有限的香草种植新手，先判断窗台位置条件再做选择。",
+  "audience":{"description":"只有窗台或小阳台、刚开始种香草且担心养护失败的城市租住者","needs":["判断种植位置条件","低成本开始"]},
+  "topic":{"topic_id":"herb-topic-001","working_title":"买苗前先观察窗台光照：新手从哪里开始记录？","angle":"先记录一天内几个时段的光照与遮挡，再决定下一步；不把观察说成成活保证。","source":"human-approved-candidate"},
+  "note_type":"search","core_problem":"新手在不了解自家窗台光照条件时就挑苗，之后难判断摆放位置是否合适。","core_answer":"用固定时段的观察记录了解位置差异，为后续查找品种要求提供自己的环境信息。",
+  "title_requirement":{"goal":"让读者知道这是买苗前的观察步骤","must_include":["窗台光照"],"avoid":["保证成活","最佳品种"]},
+  "keyword_request":{"mode":"plan","seed_terms":["窗台香草种植"],"priority":"语义相关，不推断搜索量"},
+  "writing_constraints":{"must_do":["给出可执行观察方法","区分观察和品种结论"],"must_avoid":["虚构种植经历","保证植物成活","编造日照时长数据"],"body_length":{"min":150,"max":900}},
+  "offer_ref":null,"cta":"你可以先记录自己窗台一天里的光线变化。","topics":["#窗台种植","#香草种植","#新手种植"],
+  "risk":{"level":"low","flags":["general_gardening_information"],"notes":["未进行特定品种适配或园艺资料核验。"]},
+  "evidence":[{"kind":"user_input","summary":"来自虚构账号简报与用户选择的候选，仅支持选题方向。","source_ref":"examples/first-run/topic-candidates.json","synthetic":true,"limitations":["没有平台搜索或用户访谈数据"]}],
+  "approval":{"state":"approved","approved_by":"fictional_uat_operator_mock","approved_at":"2026-09-30T00:00:00Z","note":"UAT 模拟的人工选题确认，不代表生产自动批准。"}
+}

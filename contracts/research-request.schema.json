@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/xhs/contracts/research-request.schema.json",
+  "title": "Research Request V1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "research_id", "research_request", "audience", "content_domain", "research_goal", "synthetic"],
+  "properties": {
+    "schema_version": {"const": "1.0.0"},
+    "research_id": {"type": "string", "minLength": 1},
+    "research_request": {"type": "string", "minLength": 1},
+    "audience": {"type": "object", "required": ["description"], "properties": {"description": {"type": "string", "minLength": 1}, "needs": {"type": "array", "items": {"type": "string"}}}},
+    "content_domain": {"type": "string", "minLength": 1},
+    "research_goal": {"type": "string", "minLength": 1},
+    "seed_keywords": {"type": "array", "items": {"type": "string"}},
+    "profile_ref": {"type": ["string", "null"]},
+    "data_sources": {"type": "array", "items": {"enum": ["local_json", "user_upload", "csv", "web", "platform_adapter"]}, "minItems": 1},
+    "synthetic": {"type": "boolean"}
+  }
+}

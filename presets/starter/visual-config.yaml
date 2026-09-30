@@ -1,0 +1,13 @@
+# 可在后续更换配色；无需图片 API 或外部字体文件。
+canvas:
+  width: 1080
+  height: 1440
+page_count: 8
+format: svg
+font_family: "Arial, 'Noto Sans CJK SC', sans-serif"
+palette:
+  background: "#F7F4EE"
+  ink: "#20332D"
+  accent: "#D77952"
+  muted: "#DCE5DD"
+assets: [] # 可选用户素材；应确认拥有使用权

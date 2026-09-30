@@ -1,0 +1,8 @@
+﻿{
+  "config_version":"1.0.0",
+  "workspace_data_dir":".user-data",
+  "default_language":"zh-CN",
+  "synthetic_demo_only":true,
+  "network_enabled_by_default":false,
+  "external_integrations_enabled":false
+}

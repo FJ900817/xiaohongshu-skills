@@ -1,0 +1,9 @@
+# 用户自有关键词资料。未知的数据字段保持空白，禁止把猜测写成搜索量/成交量。
+catalog_id: my-keywords
+keywords: []
+# 可选条目示例（仅结构示例，不是搜索数据）：
+# - phrase: 小户型厨房收纳
+#   intent: 寻找具体收纳方法
+#   source: user_provided
+#   evidence: 用户提供的词表
+#   metrics: null

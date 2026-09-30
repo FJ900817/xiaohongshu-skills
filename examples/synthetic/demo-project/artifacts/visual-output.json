@@ -1,0 +1,386 @@
+{
+  "schema_version": "1.0.0",
+  "content_ref": {
+    "writing_id": "home-writing-001",
+    "revision": 1,
+    "status": "approved",
+    "body_sha256": "bf9527a9654b5300363d9fe0adef66a5d14e17ce7da4434f9b8619fb9136a3ad"
+  },
+  "visual_plan": {
+    "content_type": "search",
+    "page_count": 8,
+    "canvas": {
+      "width": 1080,
+      "height": 1440,
+      "format": "svg"
+    },
+    "style_preset": "synthetic-home-editorial-v1",
+    "user_notes": "New generic synthetic template; no third-party images or font files."
+  },
+  "pages": [
+    {
+      "page_id": "page-01",
+      "sequence": 1,
+      "purpose": "Cover",
+      "text": [
+        "小户型玄关收纳：先试这三步",
+        "不用急着买收纳家具",
+        "先观察每天带进带出的物品",
+        "按频率分区，再安排归位点"
+      ],
+      "asset_refs": [
+        "asset-01"
+      ]
+    },
+    {
+      "page_id": "page-02",
+      "sequence": 2,
+      "purpose": "Contrast",
+      "text": [
+        "先分清“每天用”和“偶尔用”",
+        "常用物品：顺手、好拿",
+        "偶尔用品：收在不挡路处",
+        "不要把过道变成临时仓库"
+      ],
+      "asset_refs": [
+        "asset-02"
+      ]
+    },
+    {
+      "page_id": "page-03",
+      "sequence": 3,
+      "purpose": "Framework",
+      "text": [
+        "一个简单整理框架",
+        "分类：先看物品用途",
+        "分区：按使用频率安排位置",
+        "归位：留出临时物品缓冲区"
+      ],
+      "asset_refs": [
+        "asset-03"
+      ]
+    },
+    {
+      "page_id": "page-04",
+      "sequence": 4,
+      "purpose": "Problems",
+      "text": [
+        "容易反复变乱的三个原因",
+        "高频物品没有固定位置",
+        "临时放置区越堆越大",
+        "收纳方案挡住门扇或通道"
+      ],
+      "asset_refs": [
+        "asset-04"
+      ]
+    },
+    {
+      "page_id": "page-05",
+      "sequence": 5,
+      "purpose": "Synthetic Case",
+      "text": [
+        "合成场景：窄玄关",
+        "设一个钥匙托盘和一个包袋挂点",
+        "鞋物按当前使用需求取舍",
+        "不适用时按实际户型调整"
+      ],
+      "asset_refs": [
+        "asset-05"
+      ]
+    },
+    {
+      "page_id": "page-06",
+      "sequence": 6,
+      "purpose": "Check Signals",
+      "text": [
+        "用日常观察判断是否顺手",
+        "进门时是否容易放下随身物品？",
+        "出门前是否能快速找到常用物？",
+        "通道是否保持畅通？不编造效果数字"
+      ],
+      "asset_refs": [
+        "asset-06"
+      ]
+    },
+    {
+      "page_id": "page-07",
+      "sequence": 7,
+      "purpose": "Steps",
+      "text": [
+        "从一个小区域开始",
+        "1. 选一种每天使用的物品",
+        "2. 找到不挡路的固定位置",
+        "3. 试用后再调整，不必一次买齐"
+      ],
+      "asset_refs": [
+        "asset-07"
+      ]
+    },
+    {
+      "page_id": "page-08",
+      "sequence": 8,
+      "purpose": "Summary",
+      "text": [
+        "小结：先观察，再分区",
+        "小户型玄关收纳从高频物品开始",
+        "留出安全通行和临时缓冲空间",
+        "本页内容为合成示例，不是效果保证"
+      ],
+      "asset_refs": [
+        "asset-08"
+      ]
+    }
+  ],
+  "image_tasks": [
+    {
+      "task_id": "image-task-01",
+      "page_id": "page-01",
+      "description": "Render supplied synthetic page text using local generic SVG layout.",
+      "status": "ready",
+      "provider": null
+    },
+    {
+      "task_id": "image-task-02",
+      "page_id": "page-02",
+      "description": "Render supplied synthetic page text using local generic SVG layout.",
+      "status": "ready",
+      "provider": null
+    },
+    {
+      "task_id": "image-task-03",
+      "page_id": "page-03",
+      "description": "Render supplied synthetic page text using local generic SVG layout.",
+      "status": "ready",
+      "provider": null
+    },
+    {
+      "task_id": "image-task-04",
+      "page_id": "page-04",
+      "description": "Render supplied synthetic page text using local generic SVG layout.",
+      "status": "ready",
+      "provider": null
+    },
+    {
+      "task_id": "image-task-05",
+      "page_id": "page-05",
+      "description": "Render supplied synthetic page text using local generic SVG layout.",
+      "status": "ready",
+      "provider": null
+    },
+    {
+      "task_id": "image-task-06",
+      "page_id": "page-06",
+      "description": "Render supplied synthetic page text using local generic SVG layout.",
+      "status": "ready",
+      "provider": null
+    },
+    {
+      "task_id": "image-task-07",
+      "page_id": "page-07",
+      "description": "Render supplied synthetic page text using local generic SVG layout.",
+      "status": "ready",
+      "provider": null
+    },
+    {
+      "task_id": "image-task-08",
+      "page_id": "page-08",
+      "description": "Render supplied synthetic page text using local generic SVG layout.",
+      "status": "ready",
+      "provider": null
+    }
+  ],
+  "assets": [
+    {
+      "asset_id": "asset-01",
+      "kind": "synthetic",
+      "uri": "pages/page-01.svg",
+      "synthetic": true,
+      "license_status": "not_applicable",
+      "credit": null
+    },
+    {
+      "asset_id": "asset-02",
+      "kind": "synthetic",
+      "uri": "pages/page-02.svg",
+      "synthetic": true,
+      "license_status": "not_applicable",
+      "credit": null
+    },
+    {
+      "asset_id": "asset-03",
+      "kind": "synthetic",
+      "uri": "pages/page-03.svg",
+      "synthetic": true,
+      "license_status": "not_applicable",
+      "credit": null
+    },
+    {
+      "asset_id": "asset-04",
+      "kind": "synthetic",
+      "uri": "pages/page-04.svg",
+      "synthetic": true,
+      "license_status": "not_applicable",
+      "credit": null
+    },
+    {
+      "asset_id": "asset-05",
+      "kind": "synthetic",
+      "uri": "pages/page-05.svg",
+      "synthetic": true,
+      "license_status": "not_applicable",
+      "credit": null
+    },
+    {
+      "asset_id": "asset-06",
+      "kind": "synthetic",
+      "uri": "pages/page-06.svg",
+      "synthetic": true,
+      "license_status": "not_applicable",
+      "credit": null
+    },
+    {
+      "asset_id": "asset-07",
+      "kind": "synthetic",
+      "uri": "pages/page-07.svg",
+      "synthetic": true,
+      "license_status": "not_applicable",
+      "credit": null
+    },
+    {
+      "asset_id": "asset-08",
+      "kind": "synthetic",
+      "uri": "pages/page-08.svg",
+      "synthetic": true,
+      "license_status": "not_applicable",
+      "credit": null
+    }
+  ],
+  "render_outputs": [
+    {
+      "page_id": "page-01",
+      "path": "pages/page-01.svg",
+      "format": "svg",
+      "width": 1080,
+      "height": 1440,
+      "sha256": "ea0aadbf38e44a2f54042476e23e12b696133ce844b8c0be0def9da8e46f2e0c",
+      "renderer_version": "public-svg-demo-1.0"
+    },
+    {
+      "page_id": "page-02",
+      "path": "pages/page-02.svg",
+      "format": "svg",
+      "width": 1080,
+      "height": 1440,
+      "sha256": "a89b67bb22f1f92fdf1c2f23bdb5927fd3dd9fa7b82a7ede6afd296df5622420",
+      "renderer_version": "public-svg-demo-1.0"
+    },
+    {
+      "page_id": "page-03",
+      "path": "pages/page-03.svg",
+      "format": "svg",
+      "width": 1080,
+      "height": 1440,
+      "sha256": "75ad20959d1dc14cb6b537435e34f424ce42f990b79e7371f1976c96aa326537",
+      "renderer_version": "public-svg-demo-1.0"
+    },
+    {
+      "page_id": "page-04",
+      "path": "pages/page-04.svg",
+      "format": "svg",
+      "width": 1080,
+      "height": 1440,
+      "sha256": "8eb3dde29edc38dcb6033a92496c5d7c5d7a3938e7a44069b29945bb5af6edc5",
+      "renderer_version": "public-svg-demo-1.0"
+    },
+    {
+      "page_id": "page-05",
+      "path": "pages/page-05.svg",
+      "format": "svg",
+      "width": 1080,
+      "height": 1440,
+      "sha256": "e688be86b20e7c1201fb890c044cbb215bdfe1a895a09c9624ba659f9e9ab23f",
+      "renderer_version": "public-svg-demo-1.0"
+    },
+    {
+      "page_id": "page-06",
+      "path": "pages/page-06.svg",
+      "format": "svg",
+      "width": 1080,
+      "height": 1440,
+      "sha256": "585de77662e10e3b20a9008c0c8f544cccbd7ed5bc53695e87fef21831629ab0",
+      "renderer_version": "public-svg-demo-1.0"
+    },
+    {
+      "page_id": "page-07",
+      "path": "pages/page-07.svg",
+      "format": "svg",
+      "width": 1080,
+      "height": 1440,
+      "sha256": "43e82f3c10e64d15568bef616882af549048c77a88b0e4cf7ed92f98d28a0999",
+      "renderer_version": "public-svg-demo-1.0"
+    },
+    {
+      "page_id": "page-08",
+      "path": "pages/page-08.svg",
+      "format": "svg",
+      "width": 1080,
+      "height": 1440,
+      "sha256": "10d25405f40156c6c32d19d35fee252931fed2858d531739c41b03bf8e4949d6",
+      "renderer_version": "public-svg-demo-1.0"
+    }
+  ],
+  "qa_result": {
+    "status": "pass",
+    "checks": [
+      {
+        "id": "approved-writing-hash",
+        "status": "pass",
+        "message": "Finalization status and body hash verified."
+      },
+      {
+        "id": "page-and-asset-refs",
+        "status": "pass",
+        "message": "All eight pages reference existing synthetic assets."
+      },
+      {
+        "id": "relative-paths-and-hashes",
+        "status": "pass",
+        "message": "Rendered SVG files exist with matching SHA-256."
+      },
+      {
+        "id": "external-assets",
+        "status": "pass",
+        "message": "No external fonts, images, APIs, or credentials."
+      }
+    ],
+    "human_visual_review": "approved"
+  },
+  "production_manifest": {
+    "manifest_version": "1.0.0",
+    "created_at": "2026-09-30T07:46:19.520524+00:00",
+    "contract_versions": {
+      "task_card": "1.0.0",
+      "note_type": "1.0.0",
+      "keyword_plan": "1.0.0",
+      "writing_result": "1.0.0",
+      "finalization": "1.0.0",
+      "visual_output": "1.0.0",
+      "production_manifest": "1.0.0"
+    },
+    "writing_id": "home-writing-001",
+    "revision": 1,
+    "body_sha256": "bf9527a9654b5300363d9fe0adef66a5d14e17ce7da4434f9b8619fb9136a3ad",
+    "page_outputs": [
+      "pages/page-01.svg",
+      "pages/page-02.svg",
+      "pages/page-03.svg",
+      "pages/page-04.svg",
+      "pages/page-05.svg",
+      "pages/page-06.svg",
+      "pages/page-07.svg",
+      "pages/page-08.svg"
+    ],
+    "qa_status": "pass",
+    "generator_version": "public-svg-demo-1.0"
+  }
+}

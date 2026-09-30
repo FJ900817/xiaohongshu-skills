@@ -1,0 +1,10 @@
+﻿{
+  "schema_version": "1.0.0",
+  "profile_id": "synthetic-profile-garden",
+  "display_name": "合成示例账号",
+  "positioning": "面向初学者分享日常整理方法",
+  "audience": {"description": "刚开始规划个人学习空间的人", "needs": ["容易开始", "步骤清楚"]},
+  "content_directions": ["桌面整理", "学习习惯"],
+  "voice": {"traits": ["清楚", "友好"], "avoid": ["绝对化承诺"]},
+  "synthetic": true
+}

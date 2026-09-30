@@ -1,0 +1,32 @@
+﻿{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/xhs/contracts/task-card.schema.json",
+  "title": "Task Card Contract V1",
+  "description": "Synthetic/public generic writing task. No user identity or private workspace path.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "task_id", "status", "profile_ref", "content_goal", "audience", "topic", "note_type", "core_problem", "core_answer", "title_requirement", "keyword_request", "writing_constraints", "topics", "risk", "evidence", "approval"],
+  "properties": {
+    "schema_version": {"const": "1.0.0"},
+    "task_id": {"type": "string", "minLength": 1, "pattern": "^[A-Za-z0-9][A-Za-z0-9._-]{0,63}$"},
+    "status": {"enum": ["draft", "awaiting_approval", "approved", "rejected"]},
+    "profile_ref": {"type": "string", "minLength": 1, "description": "User-owned profile key; not a real account ID."},
+    "content_goal": {"type": "string", "minLength": 1},
+    "audience": {"type": "object", "additionalProperties": false, "required": ["description"], "properties": {"description": {"type": "string", "minLength": 1}, "needs": {"type": "array", "items": {"type": "string"}}}},
+    "topic": {"type": "object", "additionalProperties": false, "required": ["topic_id", "working_title", "angle"], "properties": {"topic_id": {"type": "string", "minLength": 1}, "working_title": {"type": "string", "minLength": 1}, "angle": {"type": "string", "minLength": 1}, "source": {"type": "string"}}},
+    "note_type": {"enum": ["search", "recommendation", "editorial_trend"]},
+    "core_problem": {"type": "string", "minLength": 1},
+    "core_answer": {"type": "string", "minLength": 1},
+    "title_requirement": {"type": "object", "additionalProperties": false, "required": ["goal"], "properties": {"goal": {"type": "string"}, "must_include": {"type": "array", "items": {"type": "string"}}, "avoid": {"type": "array", "items": {"type": "string"}}}},
+    "keyword_request": {"type": "object", "additionalProperties": false, "required": ["mode"], "properties": {"mode": {"enum": ["plan", "use_user_terms", "no_keywords"]}, "seed_terms": {"type": "array", "items": {"type": "string"}}, "priority": {"type": "string"}}},
+    "keyword_result": {"$ref": "keyword-plan.schema.json"},
+    "writing_constraints": {"type": "object", "additionalProperties": false, "required": ["must_do", "must_avoid"], "properties": {"must_do": {"type": "array", "items": {"type": "string"}}, "must_avoid": {"type": "array", "items": {"type": "string"}}, "body_length": {"type": "object", "additionalProperties": false, "properties": {"min": {"type": "integer", "minimum": 0}, "max": {"type": "integer", "minimum": 1}}}}},
+    "offer_ref": {"type": ["string", "null"]},
+    "cta": {"type": ["string", "null"]},
+    "topics": {"type": "array", "items": {"type": "string"}, "maxItems": 20},
+    "risk": {"type": "object", "additionalProperties": false, "required": ["level", "flags"], "properties": {"level": {"enum": ["low", "medium", "high", "unknown"]}, "flags": {"type": "array", "items": {"type": "string"}}, "notes": {"type": "array", "items": {"type": "string"}}}},
+    "evidence": {"type": "array", "items": {"type": "object", "additionalProperties": false, "required": ["kind", "summary", "synthetic"], "properties": {"kind": {"enum": ["user_input", "source", "assumption", "synthetic"]}, "summary": {"type": "string"}, "source_ref": {"type": ["string", "null"]}, "synthetic": {"type": "boolean"}, "limitations": {"type": "array", "items": {"type": "string"}}}}},
+    "approval": {"type": "object", "additionalProperties": false, "required": ["state"], "properties": {"state": {"enum": ["pending", "approved", "rejected"]}, "approved_by": {"type": ["string", "null"]}, "approved_at": {"type": ["string", "null"], "format": "date-time"}, "note": {"type": "string"}}}
+  }
+}
+

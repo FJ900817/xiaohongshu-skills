@@ -1,0 +1,11 @@
+{
+  "schema_version":"1.0.0",
+  "decision_required":true,
+  "research_source":"none; candidates use only fictional account input and general semantic reasoning; no real-world trend evidence",
+  "candidates":[
+    {"topic_id":"herb-topic-001","topic":"买苗前先观察窗台光照：新手从哪里开始记录？","note_type":"search","core_problem":"新手在不了解自家窗台光照条件时就挑苗，之后难判断摆放位置是否合适。","core_answer":"先在一天中几个固定时段观察直射光与明亮程度，并记录窗台朝向和遮挡；记录用于比较位置，不作为植物成活保证。","target_audience":"窗台种植新手","why_this_topic":"直接对应本轮目标，提供先观察再选择的低成本动作，不要求先购买产品。","evidence":["仅来自本次虚构账号简报；不是用户调研或平台趋势。"],"risk":{"level":"low","notes":["不同植物需求不同，本文不做具体品种适配结论。"]}},
+    {"topic_id":"herb-topic-002","topic":"香草盆栽摆窗台后叶片发软，先排查环境还是浇水？","note_type":"recommendation","core_problem":"初学者看到叶片状态变化时容易立即增加浇水，原因可能并不唯一。","core_answer":"按盆土状态、光照变化和排水情况逐项观察，再决定是否调整；不能只凭单一症状诊断。","target_audience":"刚养香草且不确定如何排查的租住者","why_this_topic":"与候选一不同，聚焦遇到异常时的排查顺序，强调不做单因诊断。","evidence":["仅为根据账号方向提出的问题假设；需真实园艺资料核验具体建议。"],"risk":{"level":"medium","notes":["涉及植物养护判断，正式内容应依据可靠园艺资料补证。"]}},
+    {"topic_id":"herb-topic-003","topic":"小阳台种植一定要买齐工具吗？把开始清单缩到三类","note_type":"editorial_trend","core_problem":"新手可能把种植准备理解为先购齐设备，增加开始成本。","core_answer":"讨论先区分必需条件、可替代用品和后续观察再添置的项目；不宣称具体省钱幅度。","target_audience":"想尝试香草但担心准备复杂的人","why_this_topic":"提供轻量开始的观点角度，与光照观察和异常排查区分。","evidence":["账号简报支持内容方向；“新手常买很多工具”是待验证假设。"],"risk":{"level":"low","notes":["不可把观点写成市场普遍现象或消费数据。"]}}
+  ],
+  "synthetic":true
+}

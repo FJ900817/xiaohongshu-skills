@@ -1,0 +1,99 @@
+{
+  "schema_version": "1.0.0",
+  "review_id": "FR-HERB-L-001",
+  "writing_id": "FR-HERB-W-001",
+  "revision": 1,
+  "observed_changes": [
+    {
+      "field": "body",
+      "change_kind": "added",
+      "before": null,
+      "after": "\n观察后可以先留一条记录，不急着得出结论。",
+      "evidence_refs": [
+        "text-diff-002"
+      ]
+    }
+  ],
+  "repeated_patterns": [],
+  "evidence": [
+    {
+      "evidence_id": "text-diff-002",
+      "kind": "text_diff",
+      "summary": "正文差异：insert，原稿行 12-11，终稿行 12-13",
+      "source_ref": "FR-HERB-W-001/revision-1"
+    },
+    {
+      "evidence_id": "herb-feedback-evidence-01",
+      "kind": "user_feedback",
+      "summary": "遇到未知条件时，先记录观察，再提示读者查具体品种要求。",
+      "source_ref": "herb-core-01"
+    },
+    {
+      "evidence_id": "herb-feedback-evidence-02",
+      "kind": "user_feedback",
+      "summary": "结尾采用温和的观察邀请，不使用催促式行动号召。",
+      "source_ref": "herb-adapter-01"
+    },
+    {
+      "evidence_id": "herb-feedback-evidence-03",
+      "kind": "user_feedback",
+      "summary": "本篇新增一句提醒读者先留记录。",
+      "source_ref": "herb-oneoff-01"
+    }
+  ],
+  "suggested_rules": [
+    {
+      "proposal_id": "proposal-herb-core-01",
+      "category": "core_rule_candidate",
+      "scope": "core",
+      "proposal": "遇到未知条件时，先记录观察，再提示读者查具体品种要求。",
+      "rationale": "当前单篇反馈，仅作为候选，不足以确认跨内容规律。",
+      "evidence_refs": [
+        "herb-feedback-evidence-01"
+      ],
+      "confidence": 0.48,
+      "status": "proposal"
+    },
+    {
+      "proposal_id": "proposal-herb-adapter-01",
+      "category": "account_adapter_candidate",
+      "scope": "adapter",
+      "proposal": "结尾采用温和的观察邀请，不使用催促式行动号召。",
+      "rationale": "符合该虚构账号语气画像。",
+      "evidence_refs": [
+        "herb-feedback-evidence-02"
+      ],
+      "confidence": 0.48,
+      "status": "proposal"
+    },
+    {
+      "proposal_id": "proposal-herb-oneoff-01",
+      "category": "one_off_preference",
+      "scope": "one_off",
+      "proposal": "本篇新增一句提醒读者先留记录。",
+      "rationale": "目前只有本次终稿修改证据。",
+      "evidence_refs": [
+        "herb-feedback-evidence-03"
+      ],
+      "confidence": 0.48,
+      "status": "proposal"
+    }
+  ],
+  "suggested_adapter_changes": [
+    {
+      "proposal_id": "proposal-herb-adapter-01",
+      "profile_ref": "window-herbs-fictional",
+      "proposal": "结尾采用温和的观察邀请，不使用催促式行动号召。",
+      "evidence_refs": [
+        "herb-feedback-evidence-02"
+      ],
+      "confidence": 0.48,
+      "status": "proposal"
+    }
+  ],
+  "confidence": 0.48,
+  "scope": "mixed",
+  "approval_required": true,
+  "status": "proposed",
+  "synthetic": true
+}

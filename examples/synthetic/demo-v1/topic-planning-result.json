@@ -1,0 +1,11 @@
+{
+  "schema_version": "1.0.0",
+  "topic_id": "demo-topic-001",
+  "note_type": "search",
+  "content_goal": "演示如何用三个小步骤开始整理学习桌面",
+  "topic": {
+    "working_title": "学习桌面总是乱？先做这三个小整理",
+    "angle": "从低成本、可立即行动的整理步骤切入"
+  },
+  "synthetic": true
+}

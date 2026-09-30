@@ -1,0 +1,88 @@
+{
+  "schema_version": "1.0.0",
+  "task_id": "home-task-001",
+  "status": "approved",
+  "profile_ref": "synthetic-home-profile",
+  "content_goal": "生成一篇帮助租住小户型人群整理玄关的实用图文笔记",
+  "audience": {
+    "description": "居住面积有限、希望日常好打理的人",
+    "needs": [
+      "不大改造",
+      "步骤简单",
+      "收纳物品容易取放"
+    ]
+  },
+  "topic": {
+    "topic_id": "research-home-topic-001",
+    "working_title": "小户型玄关收纳：先给高频物品固定位置",
+    "angle": "按使用频率分区，再安排安全、顺手的归位点。",
+    "source": "synthetic_topic_planning"
+  },
+  "note_type": "search",
+  "core_problem": "高频物品没有固定位置，进出时容易找不到。",
+  "core_answer": "按使用频率分区，再安排安全、顺手的归位点。",
+  "title_requirement": {
+    "goal": "包含明确搜索问题和可执行收益",
+    "must_include": [
+      "小户型玄关收纳"
+    ],
+    "avoid": [
+      "收纳空间翻倍",
+      "保证不再凌乱"
+    ]
+  },
+  "keyword_request": {
+    "mode": "plan",
+    "seed_terms": [
+      "小户型玄关收纳"
+    ],
+    "priority": "相关、自然，不推断搜索量"
+  },
+  "writing_constraints": {
+    "must_do": [
+      "解释适用边界",
+      "提供可执行步骤"
+    ],
+    "must_avoid": [
+      "虚构亲身经历",
+      "无依据的产品效果承诺"
+    ],
+    "body_length": {
+      "min": 100,
+      "max": 900
+    }
+  },
+  "offer_ref": null,
+  "cta": "邀请读者分享自己最难整理的玄关物品。",
+  "topics": [
+    "#小户型收纳",
+    "#玄关整理"
+  ],
+  "risk": {
+    "level": "low",
+    "flags": [
+      "synthetic_demo"
+    ],
+    "notes": [
+      "不承诺收纳效果或面积变化"
+    ]
+  },
+  "evidence": [
+    {
+      "kind": "synthetic",
+      "summary": "Research evidence refs: evidence-local-sample-001",
+      "source_ref": "home-research-001",
+      "synthetic": true,
+      "limitations": [
+        "结果只反映明确提供的来源，不代表整体市场、平台实时趋势或搜索热度。",
+        "来源均为合成示例，不代表真实用户、搜索或经营数据。"
+      ]
+    }
+  ],
+  "approval": {
+    "state": "approved",
+    "approved_by": "synthetic_human_mock",
+    "approved_at": "2026-09-30T07:46:19.520524+00:00",
+    "note": "Demo-only topic approval mock."
+  }
+}

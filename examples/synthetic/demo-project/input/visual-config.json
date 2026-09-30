@@ -1,0 +1,6 @@
+﻿{
+  "schema_version":"1.0.0","style_preset":"synthetic-home-editorial-v1",
+  "canvas":{"width":1080,"height":1440,"format":"svg"},"page_count":8,
+  "font_family":"sans-serif","palette":{"background":"#F4F0E8","ink":"#26352E","accent":"#73836D"},
+  "synthetic":true,"external_assets":false
+}

@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.0.0",
+  "research_id": "home-research-001",
+  "request": {
+    "research_request": "收集虚构家居内容账号受众对玄关整理的常见问题和表达。",
+    "audience": {
+      "description": "居住空间有限、希望保持入口整洁的人",
+      "needs": [
+        "方便取放",
+        "不挡通行"
+      ]
+    },
+    "content_domain": "合成家居整理示例",
+    "research_goal": "提供可供选题规划参考的候选问题和关键词表达",
+    "seed_keywords": [
+      "玄关整理",
+      "小空间收纳"
+    ],
+    "profile_ref": "synthetic-home-profile"
+  },
+  "sources": [],
+  "signals": [],
+  "user_problems": [],
+  "candidate_topics": [],
+  "candidate_keywords": [],
+  "evidence": [],
+  "confidence": 0.0,
+  "limitations": [
+    "结果只反映明确提供的来源，不代表整体市场、平台实时趋势或搜索热度。",
+    "未提供可分析来源；结果不包含外部市场证据。",
+    "来源均为合成示例，不代表真实用户、搜索或经营数据。"
+  ],
+  "status": "proposed",
+  "synthetic": true
+}

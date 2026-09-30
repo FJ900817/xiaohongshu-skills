@@ -1,0 +1,9 @@
+﻿{
+  "catalog_version":"1.0.0","synthetic":true,
+  "notice":"全为合成演示词，不含真实搜索量、成交或账号数据。",
+  "keywords":[
+    {"keyword_id":"home-kw-01","phrase":"小户型玄关收纳","intent":"寻找适用于小户型玄关的收纳方法","priority":1,"level":1,"source":"synthetic_demo"},
+    {"keyword_id":"home-kw-02","phrase":"玄关收纳方法","intent":"了解玄关物品分区与归位","priority":2,"level":2,"source":"synthetic_demo"},
+    {"keyword_id":"home-kw-03","phrase":"小空间入口整理","intent":"规划有限入口空间","priority":3,"level":3,"source":"synthetic_demo"}
+  ]
+}

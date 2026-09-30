@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/xhs/contracts/research-result.schema.json",
+  "title": "Research Result V1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "research_id", "request", "sources", "signals", "user_problems", "candidate_topics", "candidate_keywords", "evidence", "confidence", "limitations", "status", "synthetic"],
+  "properties": {
+    "schema_version": {"const": "1.0.0"},
+    "research_id": {"type": "string", "minLength": 1},
+    "request": {"type": "object", "additionalProperties": false, "required": ["research_request", "audience", "content_domain", "research_goal", "seed_keywords"], "properties": {"research_request": {"type": "string", "minLength": 1}, "audience": {"type": "object", "required": ["description"], "properties": {"description": {"type": "string", "minLength": 1}, "needs": {"type": "array", "items": {"type": "string"}}}}, "content_domain": {"type": "string", "minLength": 1}, "research_goal": {"type": "string", "minLength": 1}, "seed_keywords": {"type": "array", "items": {"type": "string"}, "maxItems": 50}, "profile_ref": {"type": ["string", "null"]}}},
+    "sources": {"type": "array", "items": {"type": "object", "additionalProperties": false, "required": ["source_id", "source_type", "title", "uri", "synthetic"], "properties": {"source_id": {"type": "string", "minLength": 1}, "source_type": {"enum": ["local_json", "user_upload", "csv", "web", "platform_adapter"]}, "title": {"type": "string", "minLength": 1}, "uri": {"type": ["string", "null"]}, "captured_at": {"type": ["string", "null"], "format": "date-time"}, "synthetic": {"type": "boolean"}}}},
+    "signals": {"type": "array", "items": {"type": "object", "additionalProperties": false, "required": ["signal_id", "signal_type", "summary", "evidence_refs", "confidence"], "properties": {"signal_id": {"type": "string", "minLength": 1}, "signal_type": {"enum": ["repeated_question", "need", "phrase", "trend"]}, "summary": {"type": "string", "minLength": 1}, "evidence_refs": {"type": "array", "items": {"type": "string"}, "minItems": 1}, "confidence": {"type": "number", "minimum": 0, "maximum": 1}}}},
+    "user_problems": {"type": "array", "items": {"type": "object", "additionalProperties": false, "required": ["problem_id", "summary", "evidence_refs", "confidence"], "properties": {"problem_id": {"type": "string", "minLength": 1}, "summary": {"type": "string", "minLength": 1}, "evidence_refs": {"type": "array", "items": {"type": "string"}, "minItems": 1}, "confidence": {"type": "number", "minimum": 0, "maximum": 1}}}},
+    "candidate_topics": {"type": "array", "items": {"type": "object", "additionalProperties": false, "required": ["topic_id", "title_direction", "core_problem", "content_angle", "note_type", "evidence_refs", "confidence"], "properties": {"topic_id": {"type": "string", "minLength": 1}, "title_direction": {"type": "string", "minLength": 1}, "core_problem": {"type": "string", "minLength": 1}, "content_angle": {"type": "string", "minLength": 1}, "note_type": {"enum": ["search", "recommendation", "editorial_trend"]}, "evidence_refs": {"type": "array", "items": {"type": "string"}, "minItems": 1}, "confidence": {"type": "number", "minimum": 0, "maximum": 1}}}},
+    "candidate_keywords": {"type": "array", "items": {"type": "object", "additionalProperties": false, "required": ["phrase", "intent", "evidence_refs", "confidence"], "properties": {"phrase": {"type": "string", "minLength": 1}, "intent": {"type": "string", "minLength": 1}, "evidence_refs": {"type": "array", "items": {"type": "string"}, "minItems": 1}, "confidence": {"type": "number", "minimum": 0, "maximum": 1}}}},
+    "evidence": {"type": "array", "items": {"type": "object", "additionalProperties": false, "required": ["evidence_id", "source_id", "summary", "synthetic", "limitations"], "properties": {"evidence_id": {"type": "string", "minLength": 1}, "source_id": {"type": "string", "minLength": 1}, "summary": {"type": "string", "minLength": 1}, "excerpt": {"type": ["string", "null"]}, "synthetic": {"type": "boolean"}, "limitations": {"type": "array", "items": {"type": "string"}}}}},
+    "confidence": {"type": "number", "minimum": 0, "maximum": 1},
+    "limitations": {"type": "array", "items": {"type": "string"}},
+    "status": {"const": "proposed"},
+    "synthetic": {"type": "boolean"}
+  }
+}

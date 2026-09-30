@@ -1,0 +1,173 @@
+{
+  "schema_version": "1.0.0",
+  "review_id": "learning-review-demo-001",
+  "writing_id": "home-writing-001",
+  "revision": 1,
+  "observed_changes": [
+    {
+      "field": "body",
+      "change_kind": "revised",
+      "before": "小户型玄关收纳，不一定要先买新的收纳家具。先观察每天带进带出的物品，再按使用频率安排位置。",
+      "after": "小户型玄关收纳，不一定要先买新的收纳家具。先观察每天实际取放的物品，再按使用频率安排位置。",
+      "evidence_refs": [
+        "text-diff-001"
+      ]
+    }
+  ],
+  "repeated_patterns": [
+    {
+      "pattern_id": "pattern-feedback-core-001",
+      "summary": "合成修订历史中多篇内容都采用先步骤后边界的结构。",
+      "occurrences": 3,
+      "evidence_refs": [
+        "feedback-evidence-core-001"
+      ],
+      "confidence": 0.78
+    },
+    {
+      "pattern_id": "pattern-feedback-adapter-001",
+      "summary": "仅适用于当前 synthetic profile 的表达偏好。",
+      "occurrences": 2,
+      "evidence_refs": [
+        "feedback-evidence-adapter-001"
+      ],
+      "confidence": 0.78
+    },
+    {
+      "pattern_id": "pattern-revision-history-001",
+      "summary": "该结构在多条合成修订记录中反复出现。",
+      "occurrences": 2,
+      "evidence_refs": [
+        "revision-evidence-001"
+      ],
+      "confidence": 0.78
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "text-diff-001",
+      "kind": "text_diff",
+      "summary": "正文差异：replace，原稿行 1-1，终稿行 1-1",
+      "source_ref": "home-writing-001/revision-1"
+    },
+    {
+      "evidence_id": "feedback-evidence-core-001",
+      "kind": "user_feedback",
+      "summary": "重要说明先给可执行步骤，再补充适用边界。",
+      "source_ref": "feedback-core-001"
+    },
+    {
+      "evidence_id": "feedback-evidence-adapter-001",
+      "kind": "user_feedback",
+      "summary": "结尾更适合用轻量提问邀请读者分享。",
+      "source_ref": "feedback-adapter-001"
+    },
+    {
+      "evidence_id": "feedback-evidence-oneoff-001",
+      "kind": "user_feedback",
+      "summary": "本篇标题收短一些即可，不建议沉淀成长期限制。",
+      "source_ref": "feedback-oneoff-001"
+    },
+    {
+      "evidence_id": "revision-evidence-001",
+      "kind": "revision_history",
+      "summary": "将操作步骤提前后更容易扫读。",
+      "source_ref": "revision-history-001"
+    },
+    {
+      "evidence_id": "visual-evidence-001",
+      "kind": "visual_qa",
+      "summary": "特定 Profile 偏好封面标题更短。",
+      "source_ref": "visual-qa-001"
+    }
+  ],
+  "suggested_rules": [
+    {
+      "proposal_id": "proposal-feedback-core-001",
+      "category": "core_rule_candidate",
+      "scope": "core",
+      "proposal": "重要说明先给可执行步骤，再补充适用边界。",
+      "rationale": "合成修订历史中多篇内容都采用先步骤后边界的结构。",
+      "evidence_refs": [
+        "feedback-evidence-core-001"
+      ],
+      "confidence": 0.78,
+      "status": "proposal"
+    },
+    {
+      "proposal_id": "proposal-feedback-adapter-001",
+      "category": "account_adapter_candidate",
+      "scope": "adapter",
+      "proposal": "结尾更适合用轻量提问邀请读者分享。",
+      "rationale": "仅适用于当前 synthetic profile 的表达偏好。",
+      "evidence_refs": [
+        "feedback-evidence-adapter-001"
+      ],
+      "confidence": 0.78,
+      "status": "proposal"
+    },
+    {
+      "proposal_id": "proposal-feedback-oneoff-001",
+      "category": "one_off_preference",
+      "scope": "one_off",
+      "proposal": "本篇标题收短一些即可，不建议沉淀成长期限制。",
+      "rationale": "证据仅来自本次单篇修改。",
+      "evidence_refs": [
+        "feedback-evidence-oneoff-001"
+      ],
+      "confidence": 0.48,
+      "status": "proposal"
+    },
+    {
+      "proposal_id": "proposal-revision-history-001",
+      "category": "core_rule_candidate",
+      "scope": "core",
+      "proposal": "将操作步骤提前后更容易扫读。",
+      "rationale": "该结构在多条合成修订记录中反复出现。",
+      "evidence_refs": [
+        "revision-evidence-001"
+      ],
+      "confidence": 0.78,
+      "status": "proposal"
+    },
+    {
+      "proposal_id": "proposal-visual-qa-001",
+      "category": "account_adapter_candidate",
+      "scope": "adapter",
+      "proposal": "特定 Profile 偏好封面标题更短。",
+      "rationale": "这是用户 Profile 的视觉偏好，不是全局规则。",
+      "evidence_refs": [
+        "visual-evidence-001"
+      ],
+      "confidence": 0.48,
+      "status": "proposal"
+    }
+  ],
+  "suggested_adapter_changes": [
+    {
+      "proposal_id": "proposal-feedback-adapter-001",
+      "profile_ref": "synthetic-home-profile",
+      "proposal": "结尾更适合用轻量提问邀请读者分享。",
+      "evidence_refs": [
+        "feedback-evidence-adapter-001"
+      ],
+      "confidence": 0.78,
+      "status": "proposal"
+    },
+    {
+      "proposal_id": "proposal-visual-qa-001",
+      "profile_ref": "synthetic-home-profile",
+      "proposal": "特定 Profile 偏好封面标题更短。",
+      "evidence_refs": [
+        "visual-evidence-001"
+      ],
+      "confidence": 0.48,
+      "status": "proposal"
+    }
+  ],
+  "confidence": 0.66,
+  "scope": "mixed",
+  "approval_required": true,
+  "status": "proposed",
+  "synthetic": true
+}

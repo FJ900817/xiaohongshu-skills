@@ -1,0 +1,77 @@
+{
+  "schema_version": "1.0.0",
+  "task_id": "demo-task-001",
+  "status": "approved",
+  "profile_ref": "synthetic-profile-garden",
+  "content_goal": "演示如何用三个小步骤开始整理学习桌面",
+  "audience": {
+    "description": "刚开始规划个人学习空间的人",
+    "needs": [
+      "容易开始",
+      "步骤清楚"
+    ]
+  },
+  "topic": {
+    "working_title": "学习桌面总是乱？先做这三个小整理",
+    "angle": "从低成本、可立即行动的整理步骤切入",
+    "source": "synthetic_demo",
+    "topic_id": "demo-topic-001"
+  },
+  "note_type": "search",
+  "core_problem": "学习桌面杂乱时，不知道从哪里开始整理。",
+  "core_answer": "先清空非必需物、划分常用区、每天花两分钟归位。",
+  "title_requirement": {
+    "goal": "明确问题和可执行收益",
+    "must_include": [],
+    "avoid": [
+      "保证效率翻倍"
+    ]
+  },
+  "keyword_request": {
+    "mode": "plan",
+    "seed_terms": [
+      "学习桌面整理"
+    ],
+    "priority": "自然相关、避免堆砌"
+  },
+  "writing_constraints": {
+    "must_do": [
+      "给出可执行步骤",
+      "说明步骤适用情境"
+    ],
+    "must_avoid": [
+      "未经验证的效率承诺",
+      "虚构个人经历"
+    ],
+    "body_length": {
+      "min": 20,
+      "max": 800
+    }
+  },
+  "topics": [
+    "#学习空间",
+    "#桌面整理"
+  ],
+  "risk": {
+    "level": "low",
+    "flags": [],
+    "notes": []
+  },
+  "evidence": [
+    {
+      "kind": "synthetic",
+      "summary": "为演示而构造的需求情境，不代表真实调研结论。",
+      "source_ref": null,
+      "synthetic": true,
+      "limitations": [
+        "不可作为用户研究证据"
+      ]
+    }
+  ],
+  "approval": {
+    "state": "approved",
+    "approved_by": "synthetic_reviewer",
+    "approved_at": "2026-09-30T00:00:00Z",
+    "note": "Synthetic human-approval mock."
+  }
+}

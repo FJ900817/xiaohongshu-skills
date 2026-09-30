@@ -1,0 +1,14 @@
+{
+    "schema_version":  "1.0.0",
+    "revision":  1,
+    "status":  "approved",
+    "body":  "合成示例：学习桌面整理可以从三步开始，也可称为学习空间整理。",
+    "body_sha256":  "ef3ab2cc32b4fc016a1cf929abfd75523a9aeb3703206df7a1568317583a6de6",
+    "updated_at":  "2026-09-30T00:00:00Z",
+    "submitted_by":  "synthetic_author",
+    "approved_by":  "synthetic_reviewer",
+    "finalized_at":  "2026-09-30T00:00:00Z",
+    "rejection_reason":  null,
+    "supersedes_revision":  null,
+    "writing_id":  "demo-writing-001"
+}

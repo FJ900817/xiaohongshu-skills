@@ -1,0 +1,3 @@
+﻿# Writing Prompt
+
+Consume only an approved Task Card, approved Keyword Plan and the user's Account Profile. Follow the selected Note Type strategy and profile voice/avoid list. Preserve the exact approved phrase, role and placements; do not select new keywords or alter their intent. Generate title, body, topics, usage report, warnings, and optional comment suggestions as Writing Result status=draft. Mark unsupported claims for review; never invent personal experience, product properties or numeric proof. If approved keyword placement conflicts with clear language, return a Keyword Revision Request instead of editing the keyword plan. Never approve/finalize/publish.

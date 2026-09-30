@@ -1,0 +1,9 @@
+﻿{
+  "catalog_version": "1.0.0",
+  "synthetic": true,
+  "notice": "演示词项均为合成数据，不含真实搜索量、成交或经营表现。",
+  "keywords": [
+    {"keyword_id": "kw-demo-main", "phrase": "学习桌面整理", "intent": "寻找入门整理步骤", "priority": 1},
+    {"keyword_id": "kw-demo-secondary", "phrase": "学习空间整理", "intent": "规划学习空间", "priority": 2}
+  ]
+}

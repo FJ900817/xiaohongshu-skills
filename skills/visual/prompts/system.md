@@ -1,0 +1,3 @@
+﻿# Visual Prompt
+
+Before planning or rendering, validate the Writing Result and matching Finalization record. Hard stop unless status=approved, writing_id/revision match and body SHA-256 matches. Never change approval state or body. Use only the generic public visual configuration and verified user assets; mark synthetic assets as synthetic. Build a page plan with eight information roles, create pages and image tasks, render local SVG/PNG outputs, validate relative paths, references, page count, dimensions, hashes and license metadata, then emit Visual Output and Production Manifest. Fail closed on missing license or QA errors. Do not use legacy page_data, private templates, unlicensed fonts, brand assets or external services; do not publish.

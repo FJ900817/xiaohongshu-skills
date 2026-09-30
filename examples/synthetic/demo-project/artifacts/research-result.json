@@ -1,0 +1,122 @@
+{
+  "schema_version": "1.0.0",
+  "research_id": "home-research-001",
+  "request": {
+    "research_request": "收集虚构家居内容账号受众对玄关整理的常见问题和表达。",
+    "audience": {
+      "description": "居住空间有限、希望保持入口整洁的人",
+      "needs": [
+        "方便取放",
+        "不挡通行"
+      ]
+    },
+    "content_domain": "合成家居整理示例",
+    "research_goal": "提供可供选题规划参考的候选问题和关键词表达",
+    "seed_keywords": [
+      "玄关整理",
+      "小空间收纳"
+    ],
+    "profile_ref": "synthetic-home-profile"
+  },
+  "sources": [
+    {
+      "source_id": "local-sample-001",
+      "source_type": "local_json",
+      "title": "合成问答样例 A",
+      "uri": null,
+      "captured_at": null,
+      "synthetic": true
+    },
+    {
+      "source_id": "local-sample-002",
+      "source_type": "local_json",
+      "title": "合成问答样例 B",
+      "uri": null,
+      "captured_at": null,
+      "synthetic": true
+    }
+  ],
+  "signals": [
+    {
+      "signal_id": "signal-001",
+      "signal_type": "repeated_question",
+      "summary": "用户提问：小户型玄关物品怎样更方便归位？",
+      "evidence_refs": [
+        "evidence-local-sample-001",
+        "evidence-local-sample-002"
+      ],
+      "confidence": 0.57
+    }
+  ],
+  "user_problems": [
+    {
+      "problem_id": "problem-001",
+      "summary": "高频物品没有固定位置，进出时容易找不到。",
+      "evidence_refs": [
+        "evidence-local-sample-001",
+        "evidence-local-sample-002"
+      ],
+      "confidence": 0.6
+    }
+  ],
+  "candidate_topics": [
+    {
+      "topic_id": "research-home-topic-001",
+      "title_direction": "小户型玄关收纳：先给高频物品固定位置",
+      "core_problem": "高频物品没有固定位置，进出时容易找不到。",
+      "content_angle": "按使用频率分区，再安排安全、顺手的归位点。",
+      "note_type": "search",
+      "evidence_refs": [
+        "evidence-local-sample-001"
+      ],
+      "confidence": 0.72
+    }
+  ],
+  "candidate_keywords": [
+    {
+      "phrase": "小户型玄关收纳",
+      "intent": "寻找适合小空间的玄关收纳方法",
+      "evidence_refs": [
+        "evidence-local-sample-001"
+      ],
+      "confidence": 0.5
+    },
+    {
+      "phrase": "玄关固定归位点",
+      "intent": "寻找日常物品的固定位置",
+      "evidence_refs": [
+        "evidence-local-sample-002"
+      ],
+      "confidence": 0.5
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "evidence-local-sample-001",
+      "source_id": "local-sample-001",
+      "summary": "如何让小户型玄关的鞋包和钥匙更容易归位？",
+      "excerpt": "如何让小户型玄关的鞋包和钥匙更容易归位？",
+      "synthetic": true,
+      "limitations": [
+        "合成文本，仅用于接口测试。"
+      ]
+    },
+    {
+      "evidence_id": "evidence-local-sample-002",
+      "source_id": "local-sample-002",
+      "summary": "小户型入口空间有限，日常拿取物品该怎样安排？",
+      "excerpt": "小户型入口空间有限，日常拿取物品该怎样安排？",
+      "synthetic": true,
+      "limitations": [
+        "合成文本，不代表真实用户反馈。"
+      ]
+    }
+  ],
+  "confidence": 0.58,
+  "limitations": [
+    "结果只反映明确提供的来源，不代表整体市场、平台实时趋势或搜索热度。",
+    "来源均为合成示例，不代表真实用户、搜索或经营数据。"
+  ],
+  "status": "proposed",
+  "synthetic": true
+}

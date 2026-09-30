@@ -1,0 +1,77 @@
+{
+  "schema_version": "1.0.0",
+  "task_id": "demo-task-001",
+  "status": "approved",
+  "keywords": [
+    {
+      "keyword_id": "kw-demo-main",
+      "phrase": "学习桌面整理",
+      "intent": "寻找入门整理步骤",
+      "level": 1,
+      "priority": 1,
+      "source": {
+        "kind": "synthetic_catalog",
+        "label": "合成演示词库",
+        "uri": null
+      },
+      "evidence": [
+        {
+          "summary": "为演示而构造，不代表真实搜索量。",
+          "synthetic": true
+        }
+      ],
+      "status": "locked",
+      "role": "main",
+      "placement": [
+        "title",
+        "body",
+        "topic"
+      ],
+      "occurrence_rule": {
+        "mode": "natural",
+        "note": "语义自然，不按固定密度堆叠。"
+      },
+      "topic_tag_mapping": [
+        "#学习空间"
+      ],
+      "approval_state": "approved"
+    },
+    {
+      "keyword_id": "kw-demo-secondary",
+      "phrase": "学习空间整理",
+      "intent": "规划学习空间",
+      "level": 2,
+      "priority": 2,
+      "source": {
+        "kind": "synthetic_catalog",
+        "label": "合成演示词库",
+        "uri": null
+      },
+      "evidence": [
+        {
+          "summary": "为演示而构造，不代表真实搜索量。",
+          "synthetic": true
+        }
+      ],
+      "status": "locked",
+      "role": "secondary",
+      "placement": [
+        "body",
+        "tag"
+      ],
+      "occurrence_rule": {
+        "mode": "natural"
+      },
+      "topic_tag_mapping": [
+        "#学习空间"
+      ],
+      "approval_state": "approved"
+    }
+  ],
+  "approval": {
+    "state": "approved",
+    "approved_by": "synthetic_reviewer",
+    "approved_at": "2026-09-30T00:00:00Z"
+  },
+  "plan_id": "demo-keyword-plan-001"
+}

@@ -1,0 +1,8 @@
+{
+  "gate": "keyword_approval_mock",
+  "decision": "approve",
+  "approved_plan_id": "home-keyword-plan-001",
+  "approved_by": "synthetic_human_mock",
+  "approved_at": "2026-09-30T07:46:19.520524+00:00",
+  "synthetic": true
+}

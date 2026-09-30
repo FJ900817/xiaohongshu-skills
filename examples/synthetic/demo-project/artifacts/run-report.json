@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "synthetic": true,
+  "approvals": "mock-only",
+  "research_enabled": true,
+  "learning_status": "PASS",
+  "steps": [
+    "Research Result (optional)",
+    "Topic candidates",
+    "Topic approval mock",
+    "Task Card compile",
+    "Keyword Plan",
+    "Keyword approval mock",
+    "Writing draft",
+    "Final approval mock",
+    "8-page SVG Visual",
+    "QA",
+    "Manifest",
+    "Learning proposal (independent side loop)"
+  ],
+  "page_count": 8,
+  "external_services": false,
+  "private_staging_used": false,
+  "limitations": [
+    "Deterministic mock executor; not an AI generation service.",
+    "Synthetic approval mocks must never be used for real publication.",
+    "Learning Accept mock records an approved proposal only; it never applies a rule."
+  ]
+}

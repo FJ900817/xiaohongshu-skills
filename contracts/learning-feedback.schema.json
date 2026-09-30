@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/xhs/contracts/learning-feedback.schema.json",
+  "title": "Learning Feedback V1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "feedback", "synthetic"],
+  "properties": {
+    "schema_version": {"const": "1.0.0"},
+    "synthetic": {"type": "boolean"},
+    "feedback": {"type": "array", "items": {"type": "object", "additionalProperties": false, "required": ["feedback_id", "text", "scope_hint", "rationale", "occurrences", "evidence_ref"], "properties": {"feedback_id": {"type": "string", "minLength": 1}, "text": {"type": "string", "minLength": 1}, "scope_hint": {"enum": ["core", "adapter", "one_off"]}, "rationale": {"type": "string", "minLength": 1}, "occurrences": {"type": "integer", "minimum": 1}, "target_profile_ref": {"type": ["string", "null"]}, "evidence_ref": {"type": "string", "minLength": 1}}}},
+    "account_profile_ref": {"type": ["string", "null"]},
+    "revision_history": {"type": "array", "items": {"type": "object", "additionalProperties": false, "required": ["entry_id", "summary", "scope_hint", "rationale", "occurrences", "evidence_ref"], "properties": {"entry_id": {"type": "string"}, "summary": {"type": "string", "minLength": 1}, "scope_hint": {"enum": ["core", "adapter", "one_off"]}, "rationale": {"type": "string", "minLength": 1}, "occurrences": {"type": "integer", "minimum": 1}, "target_profile_ref": {"type": ["string", "null"]}, "evidence_ref": {"type": "string", "minLength": 1}}}},
+    "visual_qa_feedback": {"type": "array", "items": {"type": "object", "additionalProperties": false, "required": ["feedback_id", "summary", "scope_hint", "rationale", "occurrences", "evidence_ref"], "properties": {"feedback_id": {"type": "string"}, "summary": {"type": "string", "minLength": 1}, "scope_hint": {"enum": ["core", "adapter", "one_off"]}, "rationale": {"type": "string", "minLength": 1}, "occurrences": {"type": "integer", "minimum": 1}, "target_profile_ref": {"type": ["string", "null"]}, "evidence_ref": {"type": "string", "minLength": 1}}}}
+  }
+}

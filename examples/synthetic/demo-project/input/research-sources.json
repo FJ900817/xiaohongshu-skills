@@ -1,0 +1,30 @@
+{
+  "sources": [
+    {
+      "source_id": "local-sample-001",
+      "source_type": "local_json",
+      "title": "合成问答样例 A",
+      "uri": null,
+      "synthetic": true,
+      "excerpt": "如何让小户型玄关的鞋包和钥匙更容易归位？",
+      "user_questions": ["小户型玄关物品怎样更方便归位？"],
+      "user_problems": ["高频物品没有固定位置，进出时容易找不到。"],
+      "phrases": [["小户型玄关收纳", "寻找适合小空间的玄关收纳方法"]],
+      "candidate_topics": [{"topic_id": "research-home-topic-001", "title_direction": "小户型玄关收纳：先给高频物品固定位置", "core_problem": "高频物品没有固定位置，进出时容易找不到。", "content_angle": "按使用频率分区，再安排安全、顺手的归位点。", "note_type": "search", "confidence": 0.72}],
+      "limitations": ["合成文本，仅用于接口测试。"]
+    },
+    {
+      "source_id": "local-sample-002",
+      "source_type": "local_json",
+      "title": "合成问答样例 B",
+      "uri": null,
+      "synthetic": true,
+      "excerpt": "小户型入口空间有限，日常拿取物品该怎样安排？",
+      "user_questions": ["小户型玄关物品怎样更方便归位？"],
+      "user_problems": ["高频物品没有固定位置，进出时容易找不到。"],
+      "phrases": [["玄关固定归位点", "寻找日常物品的固定位置"]],
+      "candidate_topics": [],
+      "limitations": ["合成文本，不代表真实用户反馈。"]
+    }
+  ]
+}

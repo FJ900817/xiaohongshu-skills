@@ -1,0 +1,9 @@
+{
+  "schema_version":"1.0.0","plan_id":"FR-HERB-KW-001","task_id":"FR-HERB-001","status":"approved",
+  "keywords":[
+    {"keyword_id":"kw-herb-01","phrase":"窗台香草种植","intent":"寻找在窗台开始种植香草的入门信息","level":null,"priority":1,"source":{"kind":"model_suggestion","label":"语义建议；未验证，无搜索量、排名、成交或平台趋势证据"},"evidence":[{"summary":"根据获批主题做语义匹配；unverified，未接入搜索数据。","synthetic":false}],"status":"locked","role":"main","placement":["title","body","topic"],"occurrence_rule":{"mode":"natural","note":"自然出现，不按密度堆叠。"},"topic_tag_mapping":["#窗台种植"],"approval_state":"approved"},
+    {"keyword_id":"kw-herb-02","phrase":"窗台光照观察","intent":"了解如何记录窗台位置条件","level":null,"priority":2,"source":{"kind":"model_suggestion","label":"语义建议；未验证，无搜索量、排名、成交或平台趋势证据"},"evidence":[{"summary":"根据主题问题推导相关表达；unverified，未接入搜索数据。","synthetic":false}],"status":"locked","role":"secondary","placement":["body","tag"],"occurrence_rule":{"mode":"natural","note":"用于步骤说明，不重复堆叠。"},"topic_tag_mapping":["#新手种植"],"approval_state":"approved"},
+    {"keyword_id":"kw-herb-03","phrase":"香草种植新手","intent":"寻找适合初学者的种植说明","level":null,"priority":3,"source":{"kind":"model_suggestion","label":"语义建议；未验证，无搜索量、排名、成交或平台趋势证据"},"evidence":[{"summary":"由目标读者描述归纳；unverified，未接入搜索数据。","synthetic":false}],"status":"locked","role":"secondary","placement":["body","topic"],"occurrence_rule":{"mode":"natural","note":"自然融入适用人群说明。"},"topic_tag_mapping":["#香草种植"],"approval_state":"approved"}
+  ],
+  "approval":{"state":"approved","approved_by":"fictional_uat_operator_mock","approved_at":"2026-09-30T00:00:00Z"}
+}

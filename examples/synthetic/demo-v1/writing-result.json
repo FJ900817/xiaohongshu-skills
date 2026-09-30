@@ -1,0 +1,43 @@
+{
+    "schema_version":  "1.0.0",
+    "writing_id":  "demo-writing-001",
+    "revision":  1,
+    "task_id":  "demo-task-001",
+    "note_type":  "search",
+    "keyword_plan_ref":  "demo-keyword-plan-001",
+    "body":  "合成示例：学习桌面整理可以从三步开始，也可称为学习空间整理。",
+    "draft_id":  "demo-draft-001",
+    "title":  "学习桌面整理：先清理，再划分常用区",
+    "topics":  [
+                   "#学习空间",
+                   "#学习空间整理"
+               ],
+    "pinned_comment":  null,
+    "secondary_comment":  null,
+    "keyword_usage_report":  [
+                                 {
+                                     "found":  true,
+                                     "phrase":  "学习桌面整理",
+                                     "placements":  [
+                                                        "title",
+                                                        "body",
+                                                        "topic"
+                                                    ],
+                                     "keyword_id":  "kw-demo-main"
+                                 },
+                                 {
+                                     "found":  true,
+                                     "phrase":  "学习空间整理",
+                                     "placements":  [
+                                                        "body",
+                                                        "tag"
+                                                    ],
+                                     "keyword_id":  "kw-demo-secondary"
+                                 }
+                             ],
+    "warnings":  [
+
+                 ],
+    "status":  "draft",
+    "synthetic":  true
+}

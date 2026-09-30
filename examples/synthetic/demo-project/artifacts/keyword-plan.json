@@ -1,0 +1,78 @@
+{
+  "schema_version": "1.0.0",
+  "plan_id": "home-keyword-plan-001",
+  "task_id": "home-task-001",
+  "status": "approved",
+  "keywords": [
+    {
+      "keyword_id": "home-kw-01",
+      "phrase": "小户型玄关收纳",
+      "intent": "寻找适用于小户型玄关的收纳方法",
+      "level": 1,
+      "priority": 1,
+      "source": {
+        "kind": "synthetic_catalog",
+        "label": "Synthetic Demo Catalog",
+        "uri": null
+      },
+      "evidence": [
+        {
+          "summary": "Synthetic phrase/intent fixture; no demand or performance claim.",
+          "synthetic": true
+        }
+      ],
+      "status": "locked",
+      "role": "main",
+      "placement": [
+        "title",
+        "body",
+        "topic"
+      ],
+      "occurrence_rule": {
+        "mode": "natural",
+        "note": "Use where semantically natural; no density target."
+      },
+      "topic_tag_mapping": [
+        "#小户型收纳"
+      ],
+      "approval_state": "approved"
+    },
+    {
+      "keyword_id": "home-kw-02",
+      "phrase": "玄关收纳方法",
+      "intent": "了解玄关物品分区与归位",
+      "level": 2,
+      "priority": 2,
+      "source": {
+        "kind": "synthetic_catalog",
+        "label": "Synthetic Demo Catalog",
+        "uri": null
+      },
+      "evidence": [
+        {
+          "summary": "Synthetic phrase/intent fixture; no demand or performance claim.",
+          "synthetic": true
+        }
+      ],
+      "status": "locked",
+      "role": "secondary",
+      "placement": [
+        "body",
+        "tag"
+      ],
+      "occurrence_rule": {
+        "mode": "natural",
+        "note": "Use where semantically natural; no density target."
+      },
+      "topic_tag_mapping": [
+        "#玄关收纳方法"
+      ],
+      "approval_state": "approved"
+    }
+  ],
+  "approval": {
+    "state": "approved",
+    "approved_by": "synthetic_human_mock",
+    "approved_at": "2026-09-30T07:46:19.520524+00:00"
+  }
+}

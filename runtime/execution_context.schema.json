@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/contracts/execution-context.schema.json",
+  "title": "Agent Skill Execution Context",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["skill_id", "run_id", "project_id", "input_refs", "config_refs", "expected_output_contract", "human_gate", "runtime_mode", "previous_step", "next_step"],
+  "properties": {
+    "skill_id": {"type": "string", "minLength": 1},
+    "run_id": {"type": "string", "minLength": 1},
+    "project_id": {"type": "string", "minLength": 1},
+    "input_refs": {"type": "array", "items": {"type": "string"}},
+    "config_refs": {"type": "array", "items": {"type": "string"}},
+    "expected_output_contract": {"type": "string", "minLength": 1},
+    "human_gate": {"type": "string", "minLength": 1},
+    "runtime_mode": {"enum": ["agent_native", "deterministic_demo"]},
+    "previous_step": {"type": ["string", "null"]},
+    "next_step": {"type": ["string", "null"]}
+  }
+}

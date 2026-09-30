@@ -1,0 +1,10 @@
+﻿{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "$id":"https://example.invalid/xhs/contracts/writing-result.schema.json",
+  "title":"Writing Result V1",
+  "type":"object","additionalProperties":false,
+  "required":["schema_version","writing_id","draft_id","revision","task_id","note_type","keyword_plan_ref","title","body","topics","keyword_usage_report","warnings","status","synthetic"],
+  "properties":{
+    "schema_version":{"const":"1.0.0"},"writing_id":{"type":"string","minLength":1},"draft_id":{"type":"string","minLength":1},"revision":{"type":"integer","minimum":1},"task_id":{"type":"string","minLength":1},"note_type":{"enum":["search","recommendation","editorial_trend"]},"keyword_plan_ref":{"type":"string","minLength":1},"title":{"type":"string","minLength":1},"body":{"type":"string","minLength":1},"topics":{"type":"array","items":{"type":"string"}},"pinned_comment":{"type":["string","null"]},"secondary_comment":{"type":["string","null"]},"keyword_usage_report":{"type":"array","items":{"type":"object","additionalProperties":false,"required":["keyword_id","phrase","found","placements"],"properties":{"keyword_id":{"type":"string"},"phrase":{"type":"string"},"found":{"type":"boolean"},"placements":{"type":"array","items":{"enum":["title","body","topic","tag"]}}}}},"warnings":{"type":"array","items":{"type":"string"}},"status":{"enum":["draft","review","approved","rejected","revision_required"]},"synthetic":{"type":"boolean"}
+  }
+}

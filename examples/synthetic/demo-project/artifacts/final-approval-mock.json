@@ -1,0 +1,10 @@
+{
+  "gate": "final_approval_mock",
+  "decision": "approve",
+  "writing_id": "home-writing-001",
+  "revision": 1,
+  "body_sha256": "bf9527a9654b5300363d9fe0adef66a5d14e17ce7da4434f9b8619fb9136a3ad",
+  "approved_by": "synthetic_human_mock",
+  "approved_at": "2026-09-30T07:46:19.520524+00:00",
+  "synthetic": true
+}

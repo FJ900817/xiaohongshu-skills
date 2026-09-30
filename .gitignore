@@ -1,0 +1,55 @@
+﻿# === User / runtime data: never version by default ===
+.user-data/
+user-data/
+user-project/
+user-projects/
+output/
+outputs/
+logs/
+cache/
+.env
+.env.*
+!.env.example
+00_staging/
+**/.secrets/
+
+# === Local integration credentials / overrides ===
+*.local.json
+*.local.yaml
+local-config/
+integrations/**/config.local.*
+
+# === Python caches / build artifacts ===
+**/__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+
+# === Virtual environments ===
+.venv/
+venv/
+env/
+
+# === Node (this repo ships no npm dependency) ===
+node_modules/
+
+# === OS / editor junk ===
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
+*.tmp
+*~
+
+# === Keep intentional example fixtures tracked despite the rules above ===
+# These are required by the regression tests and the first-run example.
+!examples/first-run/outputs/
+!examples/first-run/outputs/**
+!examples/first-run/user-project/
+!examples/first-run/user-project/**

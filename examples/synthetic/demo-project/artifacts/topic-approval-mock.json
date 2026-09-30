@@ -1,0 +1,8 @@
+{
+  "gate": "topic_approval_mock",
+  "decision": "approve",
+  "selected_topic_id": "research-home-topic-001",
+  "approved_by": "synthetic_human_mock",
+  "approved_at": "2026-09-30T07:46:19.518430+00:00",
+  "synthetic": true
+}

@@ -1,0 +1,19 @@
+﻿{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/xhs/contracts/finalization.schema.json",
+  "title": "Finalization Contract V1",
+  "type": "object", "additionalProperties": false,
+  "required": ["schema_version", "writing_id", "revision", "status", "body", "body_sha256", "updated_at"],
+  "properties": {
+    "schema_version": {"const": "1.0.0"}, "writing_id": {"type": "string", "minLength": 1}, "revision": {"type": "integer", "minimum": 1},
+    "status": {"enum": ["draft", "review", "approved", "rejected", "revision_required"]}, "body": {"type": "string", "minLength": 1},
+    "body_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"}, "updated_at": {"type": "string", "format": "date-time"},
+    "submitted_by": {"type": ["string", "null"]}, "approved_by": {"type": ["string", "null"]}, "finalized_at": {"type": ["string", "null"], "format": "date-time"}, "rejection_reason": {"type": ["string", "null"]}, "supersedes_revision": {"type": ["integer", "null"], "minimum": 1}
+  },
+  "allOf": [
+    {"if": {"properties": {"status": {"const": "approved"}}, "required": ["status"]}, "then": {"properties": {"approved_by": {"type": "string", "minLength": 1}, "finalized_at": {"type": "string", "format": "date-time"}}}},
+    {"if": {"properties": {"status": {"const": "rejected"}}, "required": ["status"]}, "then": {"properties": {"rejection_reason": {"type": "string", "minLength": 1}}}}
+  ],
+  "$comment": "Only a human actor may approve/reject. Visual reads only approved and verifies body_sha256. Any body change invalidates approval and downstream QA."
+}
+

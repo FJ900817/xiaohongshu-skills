@@ -1,0 +1,14 @@
+# 复制后填写你的账号信息；不要填写密码、Token 或平台登录凭证。
+schema_version: 1.0.0
+profile_id: window-herbs-fictional
+display_name: 窗台香草实验室
+positioning: 用小规模观察记录，陪租住空间有限的新手了解窗台香草种植入门。
+audience:
+  description: 只有窗台或小阳台、刚开始种香草且担心养护失败的城市租住者
+  needs: [判断种植位置条件, 低成本开始, 识别养护风险]
+content_directions: [新手操作步骤, 常见误区, 观察记录方法]
+voice:
+  traits: [具体, 平和, 说明限制]
+  avoid: [保证成活, 虚构实验结果, 催促消费]
+synthetic: true # 本 UAT 使用完全虚构账号
+claims_boundary: 只陈述我能确认的事实；不虚构经历、数据或效果

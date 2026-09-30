@@ -1,0 +1,14 @@
+# 复制后填写你的账号信息；不要填写密码、Token 或平台登录凭证。
+schema_version: 1.0.0
+profile_id: my-account
+display_name: 我的内容账号
+positioning: 我是谁，以及我能基于什么经验分享；账号服务的目标与长期方向
+audience:
+  description: 我希望帮助的具体人群
+  needs: [] # 例：想解决的问题
+content_directions: [] # 例：教程、经验、观点
+voice:
+  traits: [] # 例：清楚、克制、友好
+  avoid: [] # 不希望出现的语气或表达
+synthetic: false # 真实用户配置填写 false；仅合成示例填写 true
+claims_boundary: 只陈述我能确认的事实；不虚构经历、数据或效果

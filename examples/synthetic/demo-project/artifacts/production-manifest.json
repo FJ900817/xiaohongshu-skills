@@ -1,0 +1,28 @@
+{
+  "manifest_version": "1.0.0",
+  "created_at": "2026-09-30T07:46:19.520524+00:00",
+  "contract_versions": {
+    "task_card": "1.0.0",
+    "note_type": "1.0.0",
+    "keyword_plan": "1.0.0",
+    "writing_result": "1.0.0",
+    "finalization": "1.0.0",
+    "visual_output": "1.0.0",
+    "production_manifest": "1.0.0"
+  },
+  "writing_id": "home-writing-001",
+  "revision": 1,
+  "body_sha256": "bf9527a9654b5300363d9fe0adef66a5d14e17ce7da4434f9b8619fb9136a3ad",
+  "page_outputs": [
+    "pages/page-01.svg",
+    "pages/page-02.svg",
+    "pages/page-03.svg",
+    "pages/page-04.svg",
+    "pages/page-05.svg",
+    "pages/page-06.svg",
+    "pages/page-07.svg",
+    "pages/page-08.svg"
+  ],
+  "qa_status": "pass",
+  "generator_version": "public-svg-demo-1.0"
+}

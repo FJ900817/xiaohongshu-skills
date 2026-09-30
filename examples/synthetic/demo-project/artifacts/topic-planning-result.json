@@ -1,0 +1,11 @@
+{
+  "schema_version": "1.0.0",
+  "topic_id": "research-home-topic-001",
+  "note_type": "search",
+  "content_goal": "生成一篇帮助租住小户型人群整理玄关的实用图文笔记",
+  "topic": {
+    "working_title": "小户型玄关收纳：先给高频物品固定位置",
+    "angle": "按使用频率分区，再安排安全、顺手的归位点。"
+  },
+  "synthetic": true
+}

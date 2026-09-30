@@ -1,0 +1,12 @@
+# 项目级默认设置。可选产品/服务没有就留空列表。
+project_id: my-content-project
+language: zh-CN
+content_goal: 帮助目标读者解决一个具体问题
+products_or_services: []
+research:
+  enabled: false
+  sources: [] # 本地文件路径；没有资料时不声称实时趋势
+paths:
+  workspace: workspace
+  outputs: outputs
+  learning: learning

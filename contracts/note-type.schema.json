@@ -1,0 +1,11 @@
+﻿{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/xhs/contracts/note-type.schema.json",
+  "title": "Note Type Contract V1",
+  "description": "Public note type identifiers. Strategy defaults are documented in docs/CONTRACTS.md.",
+  "$defs": {"note_type": {"type": "string", "enum": ["search", "recommendation", "editorial_trend"]}},
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "note_type"],
+  "properties": {"schema_version": {"const": "1.0.0"}, "note_type": {"$ref": "#/$defs/note_type"}}
+}

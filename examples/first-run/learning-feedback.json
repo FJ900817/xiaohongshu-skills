@@ -1,0 +1,9 @@
+{
+  "schema_version":"1.0.0","synthetic":true,"account_profile_ref":"window-herbs-fictional",
+  "feedback":[
+    {"feedback_id":"herb-core-01","text":"遇到未知条件时，先记录观察，再提示读者查具体品种要求。","scope_hint":"core","rationale":"当前单篇反馈，仅作为候选，不足以确认跨内容规律。","occurrences":1,"evidence_ref":"herb-feedback-evidence-01"},
+    {"feedback_id":"herb-adapter-01","text":"结尾采用温和的观察邀请，不使用催促式行动号召。","scope_hint":"adapter","rationale":"符合该虚构账号语气画像。","occurrences":1,"target_profile_ref":"window-herbs-fictional","evidence_ref":"herb-feedback-evidence-02"},
+    {"feedback_id":"herb-oneoff-01","text":"本篇新增一句提醒读者先留记录。","scope_hint":"one_off","rationale":"目前只有本次终稿修改证据。","occurrences":1,"evidence_ref":"herb-feedback-evidence-03"}
+  ],
+  "revision_history":[],"visual_qa_feedback":[]
+}

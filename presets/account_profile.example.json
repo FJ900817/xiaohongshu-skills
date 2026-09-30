@@ -1,0 +1,7 @@
+﻿{
+  "schema_version":"1.0.0","profile_id":"synthetic-home-profile","display_name":"合成小户型家居账号",
+  "positioning":"为租住小户型的人提供低成本、可执行的空间整理建议",
+  "audience":{"description":"居住面积有限、希望日常好打理的人","needs":["不大改造","步骤简单","收纳物品容易取放"]},
+  "content_directions":["玄关整理","小空间动线","日常维护"],
+  "voice":{"traits":["实用","克制","清楚"],"avoid":["夸大效果","保证空间翻倍","编造亲身经历"]},"synthetic":true
+}

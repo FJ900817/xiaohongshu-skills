@@ -1,0 +1,16 @@
+{
+  "schema_version": "1.0.0",
+  "synthetic": true,
+  "account_profile_ref": "synthetic-home-profile",
+  "feedback": [
+    {"feedback_id": "feedback-core-001", "text": "重要说明先给可执行步骤，再补充适用边界。", "scope_hint": "core", "rationale": "合成修订历史中多篇内容都采用先步骤后边界的结构。", "occurrences": 3, "evidence_ref": "feedback-evidence-core-001"},
+    {"feedback_id": "feedback-adapter-001", "text": "结尾更适合用轻量提问邀请读者分享。", "scope_hint": "adapter", "rationale": "仅适用于当前 synthetic profile 的表达偏好。", "occurrences": 2, "target_profile_ref": "synthetic-home-profile", "evidence_ref": "feedback-evidence-adapter-001"},
+    {"feedback_id": "feedback-oneoff-001", "text": "本篇标题收短一些即可，不建议沉淀成长期限制。", "scope_hint": "one_off", "rationale": "证据仅来自本次单篇修改。", "occurrences": 1, "evidence_ref": "feedback-evidence-oneoff-001"}
+  ],
+  "revision_history": [
+    {"entry_id": "revision-history-001", "summary": "将操作步骤提前后更容易扫读。", "scope_hint": "core", "rationale": "该结构在多条合成修订记录中反复出现。", "occurrences": 2, "evidence_ref": "revision-evidence-001"}
+  ],
+  "visual_qa_feedback": [
+    {"feedback_id": "visual-qa-001", "summary": "特定 Profile 偏好封面标题更短。", "scope_hint": "adapter", "rationale": "这是用户 Profile 的视觉偏好，不是全局规则。", "occurrences": 1, "evidence_ref": "visual-evidence-001", "target_profile_ref": "synthetic-home-profile"}
+  ]
+}

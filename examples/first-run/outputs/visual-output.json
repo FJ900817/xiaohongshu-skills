@@ -1,0 +1,308 @@
+{
+  "schema_version": "1.0.0",
+  "content_ref": {
+    "writing_id": "FR-HERB-W-001",
+    "revision": 1,
+    "status": "approved",
+    "body_sha256": "05c2dc82b3b88a1d0e94d5d5a51ccac538c7c28db55d55c49825d5acaf43b1d5"
+  },
+  "visual_plan": {
+    "content_type": "search",
+    "page_count": 8,
+    "canvas": {
+      "width": 1080,
+      "height": 1440,
+      "format": "svg"
+    },
+    "style_preset": "starter-editorial",
+    "user_notes": "通用公开样式；P5 使用几何矢量占位。"
+  },
+  "pages": [
+    {
+      "page_id": "P1",
+      "sequence": 1,
+      "purpose": "封面",
+      "text": [
+        "窗台香草种植怎么开始？买苗前先记下这三件事",
+        "窗台香草种植怎么开始？买苗前先记下这三件事",
+        "从正文提取的实用内容",
+        "#窗台种植",
+        "#香草种植"
+      ],
+      "asset_refs": []
+    },
+    {
+      "page_id": "P2",
+      "sequence": 2,
+      "purpose": "关键对比",
+      "text": [
+        "先看问题与目标",
+        "准备在窗台种香草时，先别急着根据一张图片挑品种",
+        "不同房间的朝向、遮挡和季节都不一样，先把自己的位置观察清楚，之后查具体品种要求会更有依据"
+      ],
+      "asset_refs": []
+    },
+    {
+      "page_id": "P3",
+      "sequence": 3,
+      "purpose": "核心框架",
+      "text": [
+        "把内容整理成框架",
+        "不同房间的朝向、遮挡和季节都不一样，先把自己的位置观察清楚，之后查具体品种要求会更有依据",
+        "香草种植新手可以从描述环境开始，而不是先猜哪种植物一定适合",
+        "第一件事，选几个固定时段看窗边：早上、接近中午、下午各观察一次，记下有没有直射光、光线是否被楼体或窗帘挡住"
+      ],
+      "asset_refs": []
+    },
+    {
+      "page_id": "P4",
+      "sequence": 4,
+      "purpose": "常见问题",
+      "text": [
+        "需要留意的情况",
+        "第一件事，选几个固定时段看窗边：早上、接近中午、下午各观察一次，记下有没有直射光、光线是否被楼体或窗帘挡住",
+        "这个窗台光照观察不是在测精确日照时长，只是比较一天里光线变化"
+      ],
+      "asset_refs": []
+    },
+    {
+      "page_id": "P5",
+      "sequence": 5,
+      "purpose": "图解/案例",
+      "text": [
+        "内容图解",
+        "香草种植新手可以从描述环境开始，而不是先猜哪种植物一定适合",
+        "第一件事，选几个固定时段看窗边：早上、接近中午、下午各观察一次，记下有没有直射光、光线是否被楼体或窗帘挡住"
+      ],
+      "asset_refs": [
+        "asset-vector-placeholder"
+      ]
+    },
+    {
+      "page_id": "P6",
+      "sequence": 6,
+      "purpose": "证据与边界",
+      "text": [
+        "证据与适用边界",
+        "一般性观察建议；具体品种需求需查阅可信园艺资料。未提供实时平台趋势或搜索数据。"
+      ],
+      "asset_refs": []
+    },
+    {
+      "page_id": "P7",
+      "sequence": 7,
+      "purpose": "执行步骤",
+      "text": [
+        "按步骤试一遍",
+        "窗台香草种植没有适用于每个房间的统一答案，先了解位置条件，比直接照搬别人的摆放方式更稳妥",
+        "你也可以把自己的观察记成“上午有直射光 / 下午被遮挡”这类描述，再用来查资料",
+        "观察后可以先留一条记录，不急着得出结论"
+      ],
+      "asset_refs": []
+    },
+    {
+      "page_id": "P8",
+      "sequence": 8,
+      "purpose": "总结",
+      "text": [
+        "带走这几个要点",
+        "窗台香草种植怎么开始？买苗前先记下这三件事",
+        "你也可以把自己的观察记成“上午有直射光 / 下午被遮挡”这类描述，再用来查资料",
+        "观察后可以先留一条记录，不急着得出结论",
+        "#窗台种植",
+        "#香草种植"
+      ],
+      "asset_refs": []
+    }
+  ],
+  "image_tasks": [
+    {
+      "task_id": "img-P1",
+      "page_id": "P1",
+      "description": "使用内置矢量版式呈现封面，不调用外部图片服务。",
+      "status": "ready",
+      "provider": null
+    },
+    {
+      "task_id": "img-P2",
+      "page_id": "P2",
+      "description": "使用内置矢量版式呈现关键对比，不调用外部图片服务。",
+      "status": "ready",
+      "provider": null
+    },
+    {
+      "task_id": "img-P3",
+      "page_id": "P3",
+      "description": "使用内置矢量版式呈现核心框架，不调用外部图片服务。",
+      "status": "ready",
+      "provider": null
+    },
+    {
+      "task_id": "img-P4",
+      "page_id": "P4",
+      "description": "使用内置矢量版式呈现常见问题，不调用外部图片服务。",
+      "status": "ready",
+      "provider": null
+    },
+    {
+      "task_id": "img-P5",
+      "page_id": "P5",
+      "description": "使用内置矢量版式呈现图解/案例，不调用外部图片服务。",
+      "status": "ready",
+      "provider": null
+    },
+    {
+      "task_id": "img-P6",
+      "page_id": "P6",
+      "description": "使用内置矢量版式呈现证据与边界，不调用外部图片服务。",
+      "status": "ready",
+      "provider": null
+    },
+    {
+      "task_id": "img-P7",
+      "page_id": "P7",
+      "description": "使用内置矢量版式呈现执行步骤，不调用外部图片服务。",
+      "status": "ready",
+      "provider": null
+    },
+    {
+      "task_id": "img-P8",
+      "page_id": "P8",
+      "description": "使用内置矢量版式呈现总结，不调用外部图片服务。",
+      "status": "ready",
+      "provider": null
+    }
+  ],
+  "assets": [
+    {
+      "asset_id": "asset-vector-placeholder",
+      "kind": "synthetic",
+      "uri": null,
+      "synthetic": true,
+      "license_status": "not_applicable",
+      "credit": "内置程序化几何图形"
+    }
+  ],
+  "render_outputs": [
+    {
+      "page_id": "P1",
+      "path": "P1.svg",
+      "format": "svg",
+      "width": 1080,
+      "height": 1440,
+      "sha256": "024296bd6e52edb3c2627dfc11afacb2121510d4d2e6e9f0393a29cc27836131",
+      "renderer_version": "public-svg-1.0"
+    },
+    {
+      "page_id": "P2",
+      "path": "P2.svg",
+      "format": "svg",
+      "width": 1080,
+      "height": 1440,
+      "sha256": "96da267314a0b70a2aae16d6a2bf65c4b343158285a4dc5b8afcb94c98fc2057",
+      "renderer_version": "public-svg-1.0"
+    },
+    {
+      "page_id": "P3",
+      "path": "P3.svg",
+      "format": "svg",
+      "width": 1080,
+      "height": 1440,
+      "sha256": "bfbc1637b5975cf03b8043c9e66949dd0b5d008bbdef7a5a6895b77960f3c12a",
+      "renderer_version": "public-svg-1.0"
+    },
+    {
+      "page_id": "P4",
+      "path": "P4.svg",
+      "format": "svg",
+      "width": 1080,
+      "height": 1440,
+      "sha256": "ce733c34ac3c0f2e5f6f767170191ca1fff859b17271e4674c6a0a566679bbf9",
+      "renderer_version": "public-svg-1.0"
+    },
+    {
+      "page_id": "P5",
+      "path": "P5.svg",
+      "format": "svg",
+      "width": 1080,
+      "height": 1440,
+      "sha256": "d4a46eb5ffff97d7350944e9b38357afb99b7e8d1d5f6833ca337b78a5b80377",
+      "renderer_version": "public-svg-1.0"
+    },
+    {
+      "page_id": "P6",
+      "path": "P6.svg",
+      "format": "svg",
+      "width": 1080,
+      "height": 1440,
+      "sha256": "88e3778f3ba728fcc030aa0148fd731eb0eb68728a0b22e1e1f13ff74ea385a6",
+      "renderer_version": "public-svg-1.0"
+    },
+    {
+      "page_id": "P7",
+      "path": "P7.svg",
+      "format": "svg",
+      "width": 1080,
+      "height": 1440,
+      "sha256": "44f5e0fdfc26d1f53130b477325774396479858b5a8edf7bfc3848769ce22fdd",
+      "renderer_version": "public-svg-1.0"
+    },
+    {
+      "page_id": "P8",
+      "path": "P8.svg",
+      "format": "svg",
+      "width": 1080,
+      "height": 1440,
+      "sha256": "92d003c4f4f85a4dc1f148a1413ac4dd517d673a4d904dc6f455236b8dbf346b",
+      "renderer_version": "public-svg-1.0"
+    }
+  ],
+  "qa_result": {
+    "status": "pass",
+    "checks": [
+      {
+        "id": "approved-input-hash",
+        "status": "pass",
+        "message": "正文状态与 SHA-256 一致。"
+      },
+      {
+        "id": "eight-pages",
+        "status": "pass",
+        "message": "已生成 P1-P8。"
+      },
+      {
+        "id": "local-svg-files",
+        "status": "pass",
+        "message": "8 个相对路径 SVG 均存在。"
+      },
+      {
+        "id": "source-content",
+        "status": "pass",
+        "message": "页面文案从当前 Writing Result 提取。"
+      }
+    ],
+    "human_visual_review": "pending"
+  },
+  "production_manifest": {
+    "manifest_version": "1.0.0",
+    "created_at": "2026-09-30T07:23:47.776693+00:00",
+    "contract_versions": {
+      "visual_output": "1.0.0"
+    },
+    "writing_id": "FR-HERB-W-001",
+    "revision": 1,
+    "body_sha256": "05c2dc82b3b88a1d0e94d5d5a51ccac538c7c28db55d55c49825d5acaf43b1d5",
+    "page_outputs": [
+      "P1.svg",
+      "P2.svg",
+      "P3.svg",
+      "P4.svg",
+      "P5.svg",
+      "P6.svg",
+      "P7.svg",
+      "P8.svg"
+    ],
+    "qa_status": "pass",
+    "generator_version": "public-svg-1.0"
+  }
+}
